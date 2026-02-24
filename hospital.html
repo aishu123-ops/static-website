@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Appointment Booking</title>
+</head>
+<body>
+
+    <h1>Hospital Appointment Booking Form</h1>
+
+    <hr>
+
+    <form>
+
+        <!-- Patient Information -->
+        <h2>Patient Details</h2>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname"><br><br>
+
+        <label>Age:</label><br>
+        <input type="number" name="age"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other<br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <hr>
+
+        <!-- Appointment Details -->
+        <h2>Appointment Details</h2>
+
+        <label>Select Department:</label><br>
+        <select name="department">
+            <option>General Medicine</option>
+            <option>Cardiology</option>
+            <option>Orthopedics</option>
+            <option>Pediatrics</option>
+            <option>Dermatology</option>
+        </select><br><br>
+
+        <label>Select Doctor:</label><br>
+        <select name="doctor">
+            <option>Dr. Sharma</option>
+            <option>Dr. Rao</option>
+            <option>Dr. Mehta</option>
+        </select><br><br>
+
+        <label>Appointment Date:</label><br>
+        <input type="date" name="date"><br><br>
+
+        <label>Preferred Time:</label><br>
+        <input type="time" name="time"><br><br>
+
+        <label>Symptoms / Message:</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        <hr>
+
+        <!-- Buttons -->
+        <input type="submit" value="Book Appointment">
+        <input type="reset" value="Clear Form">
+
+    </form>
+
+</body>
+</html>
